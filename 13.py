@@ -82,28 +82,4 @@ tst=False
 
 while tst==False:
 
-    try:
-
-        tst = صحيح
-
-        swich=int(input("\033[1;93mchoose : \n\033[1;92m1 \033[1;93m- online members \n\033[1;92m2\033[1;93m - followers of user \n\033[1;92m3 \033[1;93m- new members \n\033[1;92mwhich one \033[1;93m: \033[0m"))
-
-        if swich<0 or swich>3:
-
-            print("\033[1;93mplease ... choose 1 or 2 or 3 \033[0m")
-
-            tst=False
-
-    except :
-
-        print("\n\033[1;93mchoose a number\033[0m ")
-
-        tst=False
-
-tst=False
-
-while tst==False:
-
-    try:
-
-        tst=True
+    tst = صحيح
