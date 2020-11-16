@@ -84,4 +84,4 @@ while tst==False:
 
     try:
 
-        tst=True
+        tst = صحيح
