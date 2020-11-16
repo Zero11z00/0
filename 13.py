@@ -1,3 +1,35 @@
+import amino
+
+import os
+
+import getpass
+
+def Tass2(data):
+
+    listusers=[]
+
+    for userId ,status in zip(data.userId,data.status):
+
+       if status!=9 and status !=10:
+
+           listusers.append(userId)
+
+    return listusers
+
+def Tass(data):
+
+    listusers=[]
+
+    for userId ,status in zip(data.profile.userId,data.profile.status):
+
+       if status!=9 and status !=10:
+
+           listusers.append(userId)
+
+    return listusers
+
+os.system('clear')
+
 print("\033[1;31m \$$$$$$$   \$$$$$$    \$$$$    \033[1;32m script by \033[1;36mJoker.a.1.3  ")  
 
 print('\n\033[0m')              
