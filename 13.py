@@ -114,6 +114,6 @@ tst=False
 
 while tst==False:
 
-   tst= "خطأ"
+   tst= False
 
-    tst = "صحيح"
+    tst = True
