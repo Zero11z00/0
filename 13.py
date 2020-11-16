@@ -82,4 +82,6 @@ tst=False
 
 while tst==False:
 
+   tst:
+
     tst = صحيح
