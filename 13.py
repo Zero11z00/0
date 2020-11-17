@@ -111,7 +111,7 @@ sub_client=amino.SubClient(comId=comId,profile=client.profile)
 chatId=input("give me chatId of group :")
 
 userId=input("give userId of member of group for kick : ")
-sub_client.kick(userId: str, chatId: str, allowRejoin: bool = True)
+sub_client.kick(userId=userId,chatId=chatId,allowRejoin=True)
 
 swich=0
 
