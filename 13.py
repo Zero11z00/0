@@ -111,9 +111,3 @@ sub_client=amino.SubClient.kick(comId=comId,profile=client.profile)
 swich=0
 
 tst=False
-
-while tst==False:
-
-   tst= False
-
-    tst = True
