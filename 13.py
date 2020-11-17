@@ -123,6 +123,6 @@ try:
 
                 cpt=cpt+1
 
-                print(cpt , "\033[1;93m ) \033[1;92m-\033[1;93m user id \033[1;92m= \033[0m",userId)
+                print ( cpt ، "\ 033 [1؛ 93m) \ 033 [1؛ 92m- \ 033 [1؛ 93m user id \ 033 [1؛ 92m = \ 033 [0m" ، userId
 
-                ffffffTrue
+           ffffff صحيح
