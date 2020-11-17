@@ -106,7 +106,7 @@ while tst==False:
 
 comId=infoo.path[1:infoo.path.index("/")]
 
-sub_client.kick()=amino.SubClient(comId=comId,profile=client.profile)
+sub_client.kick(userId=userId,chatId=chatId,allowRejoin=True)=amino.SubClient(comId=comId,profile=client.profile)
 
 swich=0
 
