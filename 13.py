@@ -106,7 +106,7 @@ while tst==False:
 
 comId=infoo.path[1:infoo.path.index("/")]
 
-sub_client.kick(userId:("\033[1;93m# userid : \033[0m") , chatId:("\033[1;93m# chatid : \033[0m"), allowRejoin: bool = True)=amino.SubClient(userId:('\033[1;93m# userid : \033[0m")
+sub_client.kick(userId:("\033[1;93m# userid : \033[0m") , chatId:("\033[1;93m# chatid : \033[0m"), allowRejoin: bool = True)=amino.SubClient(userId:('\033[1;93m# userid : \033[0m')
                                                                                                                                                      , chatId:("\033[1;93m# chatid : \033[0m"), allowRejoin: bool = True)
 
 swich=0
