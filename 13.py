@@ -111,3 +111,27 @@ sub_client.kick(userId=userId,chatId=chatId,allowRejoin=True)=amino.SubClient(co
 swich=0
 
 tst=False
+
+try:
+
+                sub_client.invite_to_chat(userId=userId,chatId=chatId)
+
+                cpt=cpt+1
+
+                print(cpt , "\033[1;93m ) \033[1;92m-\033[1;93m user id \033[1;92m= \033[0m",userId)
+
+            except:
+
+                ffffff=True
+
+                
+
+        nemmm=nemmm+25
+
+    
+
+print("\033[1;92mall done !\033[0m")
+
+    
+
+os._exit(1)
